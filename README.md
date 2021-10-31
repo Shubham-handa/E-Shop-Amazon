@@ -92,6 +92,12 @@ Orders API's:
 For Placing Order ->
 baseurl/users/add (POST Method)
 
+Data Dumps
+----------
+
+https://github.com/Shubham-handa/E-Shop-Amazon/blob/master/products.json
+
+https://github.com/Shubham-handa/E-Shop-Amazon/blob/master/users.json
 
 
 
