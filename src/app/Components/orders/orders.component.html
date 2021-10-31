@@ -1,0 +1,37 @@
+<div class="container mt-5">
+  <div class="d-flex mx-5">
+  <div class="container mx-5">
+    <img [src]="productInfo.image" alt="" width="350px" height="320px"/>
+    <p class="mt-4"><span class="heading">Name: </span>{{productInfo.name}}</p>
+    <p><span class="heading">Description: </span>{{productInfo.description}}</p>
+    <p><span class="heading">Brand Name: </span>{{productInfo.brand}}</p>
+    <p><span class="heading">Price: </span>{{productInfo.price}}</p>
+    <p><span class="heading">Ratings: </span>{{productInfo.rating}}</p>
+    <p><span class="heading">Total Reviews: </span>{{productInfo.numReviews}}</p>
+  </div>
+
+  <div  class="container"  >
+
+    <div class="d-flex flex-column input-group mb-3" *ngIf="confirmStatus==='no';else confirmedOrder">
+      <input type="number" min="1" id="boxx" class="form-control" placeholder="Quantity" [(ngModel)]="quantity" aria-label="quantity" aria-describedby="basic-addon1">
+      <input type="text" class="form-control mt-3" id="boxx" [(ngModel)]="phone" placeholder="Enter the Phone Number" aria-label="phone" aria-describedby="basic-addon1">
+      <input type="text" class="form-control mt-3" id="boxx" [(ngModel)]="shippingaddress" placeholder="Shipping Address" aria-label="shippingaddress" aria-describedby="basic-addon1">
+      <input type="text" class="form-control mt-3" id="boxx" [(ngModel)]="city" placeholder="Enter the City" aria-label="city" aria-describedby="basic-addon1">
+      <input type="text" class="form-control mt-3" id="boxx" [(ngModel)]="zip" placeholder="Zip Code" aria-label="zipcode" aria-describedby="basic-addon1">
+      <input type="text" class="form-control mt-3" id="boxx" [(ngModel)]="state" placeholder="Enter the State" aria-label="state" aria-describedby="basic-addon1">
+      <input type="text" class="form-control mt-3" id="boxx" [(ngModel)]="country" placeholder="Enter the Country" aria-label="country" aria-describedby="basic-addon1">
+      <button type="button" id="confirm" (click)="onConfirm()" class="btn btn-primary mt-5">Confirm Order</button>
+    </div>
+    <ng-template #confirmedOrder>
+      <div class="container mt-5">
+        <h3 style="color:#125C13;">Order Confirmed</h3>
+        <p><span class="heading">Order Id: </span>{{result.id}}</p>
+        <p><span class="heading">Total Price: </span>{{result.totalPrice}}</p>
+        <p><span class="heading">Shipping Address: </span>{{result.shippingAddress}}, {{result.city}}, {{result.state}}, {{result.country}}, {{result.zip}}</p>
+        <button type="button" class="btn" id="payment">Payment</button>
+      </div>
+    </ng-template>
+
+  </div>
+  </div>
+</div>

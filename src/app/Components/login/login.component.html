@@ -1,0 +1,39 @@
+<div class="d-flex">
+    <img src="https://stubgroup.com/wp-content/uploads/2021/02/wiXtq4NPpGbNf6PEHTT4hg.jpg" class="img-fluid" alt="...">
+    <div *ngIf="!statusSignup" class="container1">
+        <h1 class="mt-3" id="welcome">Welcome</h1>
+        <form (ngSubmit)="onLogin()">
+        <div class="input-group mb-3 mt-5">
+          <i class="bi bi-person-fill ms-5 mx-3" style="font-size: 2rem; color: #1F1D36;"></i>
+          <input type="email" name="email"  class="form-control" [(ngModel)]="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="input-group mb-3 mt-4">
+          <i class="bi bi-key-fill ms-5 mx-3" style="font-size: 2rem; color: #1F1D36;"></i>
+          <input type="password" name="password" [(ngModel)]="password" class="form-control" id="password" aria-describedby="passwordHelp" placeholder="Enter password">
+        </div>
+        <button class="btn btn-primary mt-2" type="submit" id="login" >Login</button>
+        </form>
+        <p class="or mt-4">Or</p>
+        <a class="signup" (click)="onSignup(true)">Sign Up</a>
+    </div>
+    <div *ngIf="statusSignup" class="container1">
+      <h1 class="titleSign mt-3">Sign Up</h1>
+      <div class="input-group mb-3 mt-5">
+        <i class="bi bi-person-fill ms-5 mx-3" style="font-size: 2rem; color: #1F1D36;"></i>
+        <input type="text" name="name" [(ngModel)]="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter the name">
+      </div>
+      <div class="input-group mb-3 mt-3">
+        <i class="bi bi-envelope-fill ms-5 mx-3" style="font-size: 2rem; color: #1F1D36;"></i>
+        <input type="email" name="email" [(ngModel)]="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter the email">
+      </div>
+      <div class="input-group mb-3 mt-3">
+        <i class="bi bi-key-fill ms-5 mx-3" style="font-size: 2rem; color: #1F1D36;"></i>
+        <input type="password" name="password" [(ngModel)]="password"  class="form-control" id="password" aria-describedby="passwordHelp" placeholder="Enter the password">
+      </div>
+      <div class="input-group mb-3 mt-3">
+        <i class="bi bi-telephone-fill ms-5 mx-3" style="font-size: 2rem; color: #1F1D36;"></i>
+        <input type="text" name="phone"  class="form-control" [(ngModel)]="phone" id="phone" aria-describedby="phoneHelp" placeholder="Enter the phone number">
+      </div>
+      <button class="btn btn-primary mt-2" type="submit" id="login" (click)="onRegister()">Register</button>
+    </div>
+</div>

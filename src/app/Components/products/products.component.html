@@ -1,0 +1,29 @@
+<div class="d-flex mx-5 mt-3">
+  <i class="bi bi-search mx-3" style="font-size: 1.5rem; color: #1F1D36;"></i>
+  <div class="input-group mb-3 w-50">
+    <input type="text" class="form-control" [(ngModel)]="value" id="search" placeholder="Search something" aria-label="search" aria-describedby="basic-addon1">
+  </div>
+</div>
+
+
+
+<div *ngFor="let item of result|filter:value" class="mt-5">
+  <!-- <p>{{item.image}}</p> -->
+  <div class="d-flex mx-5">
+  <div>
+    <img [src]="item.image" alt="" width="350px" height="320px"/>
+  </div>
+  <div class="container mx-5">
+    <p><span class="heading">Name: </span>{{item.name}}</p>
+  <p><span class="heading">Description: </span>{{item.description}}</p>
+  <p></p>
+  <p><span class="heading">Brand Name: </span>{{item.brand}}</p>
+  <p><span class="heading">Price: </span>{{item.price}}</p>
+  <p><span class="heading">Ratings: </span>{{item.rating}}</p>
+  <!-- <ngb-rating [max]="5" [rate]="item.rating" ></ngb-rating> -->
+  <p><span class="heading">Reviews Total: </span>{{item.numReviews}}</p>
+  <button type="submit" class="place" (click)="onOrderPlaced(item._id)">Place Order</button>
+  </div>
+  </div>
+
+</div>

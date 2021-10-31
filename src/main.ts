@@ -8,5 +8,7 @@ if (environment.production) {
   enableProdMode();
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule)
+window.setTimeout(()=>{
+  platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+},5000);
