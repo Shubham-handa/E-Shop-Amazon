@@ -1,27 +1,102 @@
-# Amazon
+# ECommerce-App Using MEAN STACK    
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+[![](https://img.shields.io/badge/MongoDB-Database-brightgreen)](https://www.mongodb.com/)
+[![](https://img.shields.io/badge/Angular-Frontend-red)](https://angular.io/) [![](https://img.shields.io/badge/NodeJs-Backend-green)](https://nodejs.org/en/)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Login
+-----
 
-## Code scaffolding
+![alt text](https://github.com/Shubham-handa/E-Shop-Amazon/blob/master/Screenshots/login.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Sign Up
+-----
 
-## Build
+![alt text](https://github.com/Shubham-handa/E-Shop-Amazon/blob/master/Screenshots/signup.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Home
+-----
 
-## Running unit tests
+![alt text](https://github.com/Shubham-handa/E-Shop-Amazon/blob/master/Screenshots/home.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+Search
+-----
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![alt text](https://github.com/Shubham-handa/E-Shop-Amazon/blob/master/Screenshots/search.png)
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Orders
+-----
+
+![alt text](https://github.com/Shubham-handa/E-Shop-Amazon/blob/master/Screenshots/order.png)
+
+
+Order Confirmed
+-----
+
+![alt text](https://github.com/Shubham-handa/E-Shop-Amazon/blob/master/Screenshots/orderconfirmed.png)
+
+
+Profile
+-----
+
+![alt text](https://github.com/Shubham-handa/E-Shop-Amazon/blob/master/Screenshots/user.png)
+
+
+About
+-----
+
+![alt text](https://github.com/Shubham-handa/E-Shop-Amazon/blob/master/Screenshots/about.png)
+
+# BackEnd Details
+
+BaseURL:
+-------
+
+http://localhost:3000/api/v1/
+
+For Run the Backend Steps are:
+
+1. Run npm start command in cmd
+2. Then it will show that Database is ready and server is starting
+3. Now you can check your working of backend in postman
+
+Product API's:
+-------------
+
+1. For getting product list ->
+   baseurl/products (GET Method)
+
+2. For adding products ->
+   baseurl/products/add (POST Method)
+   
+
+2. For update product information by product id ->
+   baseurl/products/updateProduct/:id (POST Method)
+
+Users API's:
+-------------
+
+1. For Sign up or Adding user ->
+   baseurl/users/addUser (POST Method)
+   
+2. For Login ->
+   baseurl/users/login (POST Method)
+
+
+
+Orders API's:
+-------------
+
+For Placing Order ->
+baseurl/users/add (POST Method)
+
+
+
+
+
+
+
+
+
