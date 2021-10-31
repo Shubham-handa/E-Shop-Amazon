@@ -1,0 +1,129 @@
+[{
+  "_id": {
+    "$oid": "617be6368fc6038d24e301cf"
+  },
+  "name": "Shubham",
+  "email": "shubham.h001@gmail.com",
+  "password": "123455",
+  "phone": "7885565556",
+  "isAdmin": true,
+  "street": "DownTown",
+  "house": "14",
+  "city": "Ludhiana",
+  "zip": "45656",
+  "state": "Punjab",
+  "country": "India",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617c0f5de0b685447bd2a83c"
+  },
+  "name": "Shubham",
+  "email": "shubham.h001@gmail.com",
+  "password": "123455",
+  "phone": "7885565556",
+  "isAdmin": true,
+  "street": "DownTown",
+  "house": "14",
+  "city": "Ludhiana",
+  "zip": "45656",
+  "state": "Punjab",
+  "country": "India",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617d8aaf6422043ba869bef7"
+  },
+  "name": "ShubhamHanda",
+  "email": "shubham.h33@gmail.com",
+  "password": "150001",
+  "phone": "7885689101",
+  "isAdmin": false,
+  "street": "B-Hood",
+  "house": "1",
+  "city": "Ludhiana",
+  "zip": "45656",
+  "state": "Punjab",
+  "country": "India",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e9d4f87aa7f533b50c92a"
+  },
+  "name": "ShubhamHanda",
+  "email": "shubham.h33@gmail.com",
+  "password": "150001",
+  "phone": "7885689101",
+  "isAdmin": false,
+  "street": "B-Hood",
+  "house": "1",
+  "city": "Ludhiana",
+  "zip": "45656",
+  "state": "Punjab",
+  "country": "India",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e9e3f87aa7f533b50c932"
+  },
+  "name": "Pankesh",
+  "email": "panky@gmail.com",
+  "password": "123456",
+  "phone": "7869515963",
+  "isAdmin": false,
+  "street": "",
+  "house": "",
+  "city": "",
+  "zip": "",
+  "state": "",
+  "country": "",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e9e4287aa7f533b50c934"
+  },
+  "name": "Pankesh",
+  "email": "panky@gmail.com",
+  "password": "123456",
+  "phone": "7869515963",
+  "isAdmin": false,
+  "street": "",
+  "house": "",
+  "city": "",
+  "zip": "",
+  "state": "",
+  "country": "",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617eb390fee352780dd18687"
+  },
+  "name": "Thor",
+  "email": "thor001@gmail.com",
+  "password": "999999",
+  "phone": "9523687451",
+  "isAdmin": false,
+  "street": "",
+  "house": "",
+  "city": "",
+  "zip": "",
+  "state": "",
+  "country": "",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617eb392fee352780dd18689"
+  },
+  "name": "Thor",
+  "email": "thor001@gmail.com",
+  "password": "999999",
+  "phone": "9523687451",
+  "isAdmin": false,
+  "street": "",
+  "house": "",
+  "city": "",
+  "zip": "",
+  "state": "",
+  "country": "",
+  "__v": 0
+}]

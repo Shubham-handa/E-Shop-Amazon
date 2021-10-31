@@ -1,0 +1,261 @@
+[{
+  "_id": {
+    "$oid": "617e44af0c864d3662891686"
+  },
+  "name": "Hp EliteBook 830 G7",
+  "description": "Hp Elitebook 830 G7, i5 10th gen, 512gb SSD, Full HD Display, 16gb RAM, light keyboard, Elegant Design",
+  "richDescription": "",
+  "image": "http://localhost:3000/public/uploads/undefined-1635665071122.jpeg",
+  "images": [],
+  "brand": "HP",
+  "price": "150000",
+  "category": "Laptop",
+  "countInStock": 12,
+  "rating": 4.5,
+  "numReviews": 450,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2021-10-31T07:24:31.181Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e464ffc859c1c8967a369"
+  },
+  "name": "Iphone 12",
+  "description": "Apple Iphone 12 128GB",
+  "richDescription": "",
+  "image": "http://localhost:3000/public/uploads/undefined-1635665487120.jpeg",
+  "images": [],
+  "brand": "Apple",
+  "price": "65000",
+  "category": "Smartphone",
+  "countInStock": 35,
+  "rating": 4.5,
+  "numReviews": 1000,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2021-10-31T07:31:27.138Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e46d0fc859c1c8967a36d"
+  },
+  "name": "Iphone 13 PRO",
+  "description": "Apple Iphone 13 PRO 256GB",
+  "richDescription": "",
+  "image": "http://localhost:3000/public/uploads/undefined-1635665616502.jpeg",
+  "images": [],
+  "brand": "Apple",
+  "price": "100000",
+  "category": "Smartphone",
+  "countInStock": 12,
+  "rating": 4.5,
+  "numReviews": 855,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2021-10-31T07:33:36.506Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e4708fc859c1c8967a36f"
+  },
+  "name": "Iphone 11 PRO",
+  "description": "Apple Iphone 11 PRO 256GB",
+  "richDescription": "",
+  "image": "http://localhost:3000/public/uploads/undefined-1635665672757.jpeg",
+  "images": [],
+  "brand": "Apple",
+  "price": "55000",
+  "category": "Smartphone",
+  "countInStock": 45,
+  "rating": 4.5,
+  "numReviews": 1200,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2021-10-31T07:34:32.763Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e4767fc859c1c8967a373"
+  },
+  "name": "Samsung A50",
+  "description": "Samsung A50 4gb ram 128gb memory",
+  "richDescription": "",
+  "image": "http://localhost:3000/public/uploads/undefined-1635665767964.jpeg",
+  "images": [],
+  "brand": "Samsung",
+  "price": "25000",
+  "category": "Smartphone",
+  "countInStock": 200,
+  "rating": 4.5,
+  "numReviews": 12000,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2021-10-31T07:36:07.982Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e47c2fc859c1c8967a377"
+  },
+  "name": "Samsung M31",
+  "description": "Samsung M31 4gb ram 64gb memory",
+  "richDescription": "",
+  "image": "http://localhost:3000/public/uploads/undefined-1635665858933.jpeg",
+  "images": [],
+  "brand": "Samsung",
+  "price": "12000",
+  "category": "Smartphone",
+  "countInStock": 250,
+  "rating": 4.5,
+  "numReviews": 659,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2021-10-31T07:37:38.941Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e4851fc859c1c8967a37b"
+  },
+  "name": "Iso Gold Whey",
+  "description": "Is A Complete, High-quality Protein, Containing All Of The Essential Amino Acids\\nIs Highly Digestible, And Absorbed Quickly Compared To Other Proteins - Excellent Source Of Protein\\nWhey Protein Is Excellent For Promoting Lean Muscle Growth And Maintenance When Coupled With Strength Trainin",
+  "richDescription": "",
+  "image": "http://localhost:3000/public/uploads/undefined-1635666001898.jpeg",
+  "images": [],
+  "brand": "Kevin Levrone Signature Series Gold",
+  "price": "5500",
+  "category": "Protien Powder",
+  "countInStock": 100,
+  "rating": 4.6,
+  "numReviews": 1000,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2021-10-31T07:40:01.907Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e48c0fc859c1c8967a37e"
+  },
+  "name": "Levro Iso Whey",
+  "description": "LEVRONE LEVRO ISO WHEY is a product which allows you to quickly and conveniently supplement your daily diet with complete proteins. The supplement uses a high class whey protein isolate (WPI), thanks to which the product has been deprived of unnecessary sugar and fat additives. The proteins contained in the supplement have a rich amino acid profile, including valuable complexes of essential amino acids BCAA and EAA. Thanks to its easy dispersibility and delicious and delicate flavours, the product can be used as an addition to some meals from your everyday diet. The formula is recommended for people exercising recreationally, professional athletes and all supporters of healthy eating.",
+  "richDescription": "",
+  "image": "http://localhost:3000/public/uploads/undefined-1635666112084.jpeg",
+  "images": [],
+  "brand": "Kevin Levrone Signature Series Silver",
+  "price": "5000",
+  "category": "Protien Powder",
+  "countInStock": 150,
+  "rating": 4.2,
+  "numReviews": 55555,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2021-10-31T07:41:52.086Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e491bfc859c1c8967a382"
+  },
+  "name": "Levro Anabolic Iso Whey",
+  "description": "LEVRONE ANABOLIC ISO WHEY is a convenient source of wholesome proteins in the form of an easily soluble powder. The product allows you to prepare a high-protein drink containing rapidly-absorbable whey isolate (WPI). The protein used in the supplement is characterised by a high content of amino acids, including the exogenous BCAA complex. The product has been enriched with creatine monohydrate, taurine and D-Aspartic acid (DAA). Supplementation with the nutrient is recommended for supporters of a healthy and varied diet and physically active people - recreational exercisers and professional sportsmen. The product is low in sugar and fat, allowing you to use it while losing weight and working towards lean muscle mass.",
+  "richDescription": "",
+  "image": "http://localhost:3000/public/uploads/undefined-1635666203412.jpeg",
+  "images": [],
+  "brand": "Kevin Levrone Signature Series Black",
+  "price": "5200",
+  "category": "Protien Powder",
+  "countInStock": 75,
+  "rating": 4.4,
+  "numReviews": 5520,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2021-10-31T07:43:23.429Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e497ffc859c1c8967a386"
+  },
+  "name": "King Whey",
+  "description": "Ronnie Coleman Signature Series King Whey Premium Whey Protein Powder\\n25g TOTAL PROTEIN\\n20G WHEY CONCENTRATE\\n5g WHEY ISOLATE\\nTRANSPARENT PROFILE",
+  "richDescription": "",
+  "image": "http://localhost:3000/public/uploads/undefined-1635666303881.jpeg",
+  "images": [],
+  "brand": "Ronnie Coleman Signature Series",
+  "price": "4500",
+  "category": "Protien Powder",
+  "countInStock": 65,
+  "rating": 4.5,
+  "numReviews": 5566,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2021-10-31T07:45:03.885Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e49e3fc859c1c8967a38b"
+  },
+  "name": "Pro Antium",
+  "description": "PRO-ANTIUM® is a multifaceted protein blend intended for complete recovery. This multifunctional blend contains a precise combination of fast, medium, and slow digesting proteins for optimal recovery providing you with a continuous stream of protein long after your workout is complete.  Each serving also contains 13.5g of Essential Amino Acids (EAA's) as well as 3.5g of Branched Chain Amino Acids (BCAA's). \\n\\nPRO-ANTIUM® doesn't just stop at the protein blend. We have also added 5g of creatine and 2.5g of Betaine which have been scientifically proven to increase strength, power, and athletic performance. Betaine increases the efficiency rate at which the body absorbs protein, creatine, and amino acids into muscle cells by improving the body’s ability to break them down.",
+  "richDescription": "",
+  "image": "http://localhost:3000/public/uploads/undefined-1635666403920.png",
+  "images": [],
+  "brand": "Ronnie Coleman Signature Series",
+  "price": "5000",
+  "category": "Protien Powder",
+  "countInStock": 15,
+  "rating": 4.8,
+  "numReviews": 850,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2021-10-31T07:46:43.930Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e4a36fc859c1c8967a38d"
+  },
+  "name": "L-Carnitine",
+  "description": "Lean Muscle, Metabolism & Weight Management Support + Energy!\\n1,500 mg pure l-carnitine per serving\\nEnergy burst from 50 mg of caffeine anhydrous\\n15 mg Grains of Paradise to power your workout",
+  "richDescription": "",
+  "image": "http://localhost:3000/public/uploads/undefined-1635666486606.jpeg",
+  "images": [],
+  "brand": "Ronnie Coleman Signature Series",
+  "price": "2000",
+  "category": "Fat Burner",
+  "countInStock": 250,
+  "rating": 4.5,
+  "numReviews": 1215,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2021-10-31T07:48:06.614Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617e4a92fc859c1c8967a391"
+  },
+  "name": "DEll Inspiron 15 3567",
+  "description": "Dell inspiron 15 3567 8gb RAM, 1TB HDD, Full HD display, 2gb Graphics card, Spill resistant keyboard, i5 7th Gen",
+  "richDescription": "",
+  "image": "http://localhost:3000/public/uploads/undefined-1635666578339.jpeg",
+  "images": [],
+  "brand": "Dell",
+  "price": "50000",
+  "category": "Laptop",
+  "countInStock": 125,
+  "rating": 4.5,
+  "numReviews": 45000,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2021-10-31T07:49:38.354Z"
+  },
+  "__v": 0
+}]
