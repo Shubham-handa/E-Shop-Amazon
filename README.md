@@ -4,6 +4,40 @@
 [![](https://img.shields.io/badge/Angular-Frontend-red)](https://angular.io/) [![](https://img.shields.io/badge/NodeJs-Backend-green)](https://nodejs.org/en/)
 
 
+
+# Heroku Link
+
+Users
+-----
+
+1. https://nodejs-eshop-dep.herokuapp.com/api/v1/users/login (POST)
+
+Json data Example:
+-----------------
+{
+    "email":"shubham.h001@gmail.com",
+    "password":"123455"
+}
+
+2. https://nodejs-eshop-dep.herokuapp.com/api/v1/users/addUser (POST)
+
+Json data Example:
+-----------------
+{
+    "name":"Shubham Handa",
+    "email":"shubham.h001@gmail.com",
+    "password":"123455",
+    "phone":"7889237674",
+}
+
+Product List 
+------------
+
+First Login it will return token after that in authorization choose bearer token and enter the token then hit api
+
+https://nodejs-eshop-dep.herokuapp.com/api/v1/products (GET)
+
+
 Login
 -----
 
