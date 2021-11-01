@@ -17,7 +17,7 @@ Users
 1. https://nodejs-eshop-dep.herokuapp.com/api/v1/users/login (POST)
 
 Json data Example:
------------------
+
 {
     "email":"shubham.h001@gmail.com",
     "password":"123455"
@@ -26,7 +26,7 @@ Json data Example:
 2. https://nodejs-eshop-dep.herokuapp.com/api/v1/users/addUser (POST)
 
 Json data Example:
------------------
+
 {
     "name":"Shubham Handa",
     "email":"shubham.h001@gmail.com",
