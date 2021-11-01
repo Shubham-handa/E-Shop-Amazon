@@ -7,6 +7,10 @@
 
 # Heroku Link
 
+
+Backend
+-------
+
 Users
 -----
 
@@ -83,7 +87,7 @@ About
 
 ![alt text](https://github.com/Shubham-handa/E-Shop-Amazon/blob/master/Screenshots/about.png)
 
-# BackEnd Details
+# BackEnd Details To run application locally by using npm start
 
 BaseURL:
 -------
